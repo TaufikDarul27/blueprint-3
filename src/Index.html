@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <?= include('Styles'); ?>
   </head>
   <body>
-    <div id="app">
-      <h2>{{Judul Aplikasi}}</h2>
-      <input>
+    <div id="app" class="card">
+      <h1>{{ pesan }}</h1>
+      <button class="btn-green" @click="tambahSiswa">Daftar Sekarang</button>
     </div>
+    <?= include('Scripts'); ?>
   </body>
 </html>

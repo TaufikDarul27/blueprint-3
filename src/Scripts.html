@@ -1,0 +1,17 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+
+    const app = Vue.createApp({
+        data() {
+            return {
+                pesan: "Selamat Datang di Blueprint 3.0",
+                siswa: []
+            }
+        },
+        methods: {
+            tambahSiswa() {
+                console.log("Menambahkan data ke sistem...");
+            }
+        }
+    }).mount('#app')
+</script>
