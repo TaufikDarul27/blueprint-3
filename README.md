@@ -48,3 +48,5 @@ Aplikasi ini dibangun menggunakan alur kerja modern:
 ├── .clasp.json         # Konfigurasi Jembatan Google
 ├── .gitignore          # Daftar File yang Diabaikan
 └── README.md           # Dokumentasi Proyek (File ini)
+
+**Moto:** Taqwa, Cerdas, Peduli Lingkungan.
